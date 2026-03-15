@@ -1,0 +1,25 @@
+[project]
+name = "triple-a"
+version = "0.1.0"
+description = "Triple A (Active Asset Allocation) real-time quantitative trading framework."
+readme = "README.md"
+authors = [
+  { name = "Triple A Team" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.11"
+
+[project.dependencies]
+pyside6 = "*"
+catboost = "*"
+python-telegram-bot = { extras = ["asyncio"] }
+websockets = "*"
+httpx = "*"
+pycryptodome = "*"
+numpy = "*"
+pandas = "*"
+python-dotenv = "*"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
