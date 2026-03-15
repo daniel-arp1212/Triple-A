@@ -1,0 +1,9 @@
+pyside6
+catboost
+python-telegram-bot[asyncio]
+websockets
+httpx
+pycryptodome
+numpy
+pandas
+python-dotenv
